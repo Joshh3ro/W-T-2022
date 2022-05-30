@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
+
+:root {
+    --background : #151515;
+    --text : #ffff;
+    --highlight : #0191d8;
+    --accent : #4d4d4d;
+    --default-height : 100vh;
+    --default-width : 100vw;
+    --default-font : 'Roboto', sans-serif;
+    
+}
