@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;900&display=swap');
 
+@font-face {font-family: "HelveticaNeueCyr"; src: url("//db.onlinewebfonts.com/t/005854e464de62dd7c3c7b169055c28e.eot"); src: url("//db.onlinewebfonts.com/t/005854e464de62dd7c3c7b169055c28e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/005854e464de62dd7c3c7b169055c28e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/005854e464de62dd7c3c7b169055c28e.woff") format("woff"), url("//db.onlinewebfonts.com/t/005854e464de62dd7c3c7b169055c28e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/005854e464de62dd7c3c7b169055c28e.svg#HelveticaNeueCyr") format("svg"); }
+
 :root {
     --background : #151515;
     --text : #ffff;
@@ -7,7 +9,9 @@
     --accent : #4d4d4d;
     --default-height : 100vh;
     --default-width : 100vw;
-    --default-font : 'Roboto', sans-serif;
+    --default-font : 'HelveticaNeueCyr', sans-serif;
     --default-font-size : 16px;
     --display-mode : grid;
+    --light: #ffffff;
+    --dark: #000;
 }
