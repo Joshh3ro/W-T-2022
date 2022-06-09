@@ -116,7 +116,8 @@ link {
 .stats {
     display: flex;
     flex-direction: column;
-    border-bottom: 2px solid var(--text);
+    border-bottom: 2px solid var(--text); 
+    margin-bottom: 150px;
 }
 
 .box {
@@ -141,6 +142,11 @@ link {
     color: gray;
     font-size: 16px;
     width: 25em;
+}
+
+.product {
+    background-color: var(--light);
+    width: 100%;
 }
 
 #scale {
