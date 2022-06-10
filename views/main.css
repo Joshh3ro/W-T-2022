@@ -43,6 +43,10 @@ link {
     padding: 0px 0px 0px 10px;
 }
 
+.section {
+    background-color: var(--background);
+}
+
 .wrapper {
     margin: 0px 100px 0px 100px;
     flex-wrap: wrap;
@@ -144,10 +148,6 @@ link {
     width: 25em;
 }
 
-.product {
-    background-color: var(--light);
-    width: 100%;
-}
 
 #scale {
     font-size: 38px;
