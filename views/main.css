@@ -148,6 +148,12 @@ link {
     width: 25em;
 }
 
+.round_img img {
+    border-radius: 180%;
+    width: 27em;
+    height: auto;
+}
+
 
 #scale {
     font-size: 38px;
