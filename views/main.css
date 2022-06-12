@@ -149,8 +149,9 @@ link {
 }
 
 .round_img img {
+    align-self: center;
     border-radius: 180%;
-    width: 27em;
+    width: 25em;
     height: auto;
 }
 
