@@ -255,6 +255,7 @@ link {
     }
 
     .about {
+        padding-top: 20px;
         flex-direction: column;
         margin-bottom: 5px;
     }
@@ -268,6 +269,7 @@ link {
     .stats {
         display: flex;
         flex-direction: column;
+        margin-bottom: 20px;
         border-bottom: 2px solid var(--text);
     }
 
