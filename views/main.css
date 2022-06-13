@@ -237,6 +237,10 @@ link {
     overflow-x: hidden;
     }
 
+    nav {
+        display: none;
+    }
+
     .wrapper {
         width: 412px;
         flex-wrap: wrap;
