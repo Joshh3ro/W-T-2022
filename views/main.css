@@ -13,6 +13,7 @@ body {
     display: flex;
 }
 
+/*#region Navigation*/
 nav {
     display: inline-block;
     position: fixed;
@@ -41,9 +42,7 @@ a {
     text-decoration: none;
 }
 
-link {
-    padding: 0px 0px 0px 10px;
-}
+/*#endregion*/
 
 .section {
     background-color: var(--background);
@@ -66,6 +65,7 @@ link {
     text-align: initial;
 }
 
+/*#region Header*/
 .header {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +84,7 @@ link {
     width: 117.5%;
     flex-grow: 1;
 }
+/*#endregion*/
 
 .about {
     justify-content: left;
@@ -126,6 +127,7 @@ link {
     margin-bottom: 150px;
 }
 
+/*#region Stats*/
 .box {
     display: flex;
     gap: 170px;
@@ -149,6 +151,7 @@ link {
     font-size: 16px;
     width: 25em;
 }
+/*#endregion*/
 
 .round_img img {
     align-self: center;
